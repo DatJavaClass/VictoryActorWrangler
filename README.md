@@ -60,4 +60,8 @@ Library names only narrows the whole report to your resource names. Run that one
 
 `game.modules.get("victory-actor-wrangler").api` exposes `open(tab)`, `close()`, `library()`, `mutate(fn)`, `deploy(line, count, die)`, `sweep(scene)`, `audit(scene)`, `adopt(scene)`, `importTokens(tokens)`, `template()`, `scan(options)`, `merge(keeperId, otherIds)`, `sweepActors(ids)`, and `deleteBroken(sceneId, ids)`. The library is one world setting, an array of lines.
 
+## One more thing
+
+Iron Kingdoms holds a special place in my heart and somehow sneaks into all my d20 based games, as much as a warjack can sneak. If yours needs stat blocks for the jacks, [JackForge](https://github.com/DatJavaClass/JackForge) converts WarMachine warjacks into Pathfinder 1e and 2e.
+
 Built and Vibed with AI.
