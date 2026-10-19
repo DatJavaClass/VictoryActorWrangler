@@ -175,7 +175,8 @@ export class WranglerApp extends ApplicationV2 {
     const data = TextEditor.getDragEventData(ev);
     if (data?.type !== 'Item' || !this.work) return; /* entry: non item or no work, exit: return */
 
-    const item = await fromUuid(data.uuid); /* dropped item */
+    let item = null; /* dropped item */
+    try { item = await fromUuid(data.uuid); } catch (e) { console.warn(`${MODULE_ID} | dropped uuid failed`, e); } /* entry: bad uuid, exit: logged */
 
     if (!item) return; /* entry: unresolved uuid, exit: return */
 
