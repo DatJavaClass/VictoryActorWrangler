@@ -2,7 +2,7 @@
   "id": "victory-actor-wrangler",
   "title": "Victory Actor Wrangler",
   "description": "Herds the Actors tab. Resource and treasure nodes from a library (one world actor, tokens wear the face), click to place, sweep and audit a scene. Then the wrangling: scan every scene for broken tokens, duplicate actors and sidebar actors nothing uses, merge the duplicates onto one keeper with tokens intact, and sweep the rest.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "authors": [
     {
       "name": "Victor S. (DatJavaClass)"
